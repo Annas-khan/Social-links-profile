@@ -1,0 +1,123 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}   
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 33rem;
+   width: 20rem;
+   border-radius: 1rem;
+   margin-top: 7rem;
+    
+}
+
+
+img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+#location {
+    margin-top: 0.1rem;
+    color: hsl(75, 94%, 57%);
+}
+
+#github {
+    height: 2rem;
+    width: 15rem;
+    background-color: hsl(0, 0%, 20%);
+    display: grid;
+    place-items: center;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+#frontend {
+    height: 2rem;
+    width: 15rem;
+    background-color: hsl(0, 0%, 20%);
+    display: grid;
+    place-items: center;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+
+#linkedin {
+    height: 2rem;
+    width: 15rem;
+    background-color: hsl(0, 0%, 20%);
+    display: grid;
+    place-items: center;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+
+#twitter {
+    height: 2rem;
+    width: 15rem;
+    background-color: hsl(0, 0%, 20%);
+    display: grid;
+    place-items: center;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+#instagram {
+    height: 2rem;
+    width: 15rem;
+    background-color: hsl(0, 0%, 20%);
+    display: grid;
+    place-items: center;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+#github:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+
+#linkedin:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+
+#twitter:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+
+#frontend:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+
+#instagram:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
